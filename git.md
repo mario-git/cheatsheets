@@ -74,3 +74,8 @@ To show staged changes:
 ```
 git diff --cached
 ```
+
+To force a push (for example, after an amended commit):
+```
+git push origin branch-name --force
+```
